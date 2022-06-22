@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+
+body{
+
+    /* ## Colors
+
+### Primary */
+
+--Cyan: hsl(179, 62%, 43%);
+--Bright-Yellow: hsl(71, 73%, 54%);
+
+/* ### Neutral */
+
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+
+
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Karla', sans-serif;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-size: 62.5%;
+background-color: var(--Light-Gray);
+}
+
+main{
+    
+    max-width: 375px;
+    
+}
+
+.container{
+    max-width: 90%;
+    /* border: 2px red solid; */
+  
+    margin: 0 auto;
+}
+
+.card{ 
+    max-width: 100%;
+    margin: 3rem 2rem;
+    /* border: 3px solid green; */
+}
+
+.join-community{
+   
+    max-width: 100%;
+    background-color: white;
+    padding: 1rem 2rem;
+}
+.join-community h3{
+    color: var(--Cyan);
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+} 
+
+.p1{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    color: var(--Bright-Yellow);
+    font-size: 0.8rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.p2{
+    color: var(--Grayish-Blue);
+    font-size: 0.8rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.subscription{
+    background-color: var(--Cyan);
+    padding: 1rem 2rem;
+}
+
+.subscription h3{
+    color: white; 
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.fees h1{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+.fees p{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+}
+.fees{
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    padding-top: 0.5rem;
+   
+}
+
+.subscription p{
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+button{
+    
+    color: var(--Light-Gray);
+    font: 0.8em;
+    font-weight: 700;
+    padding: 0.8em 4.5em;
+    background-color: var(--Bright-Yellow);
+    border-radius: 1em;
+    text-align:center
+    
+}
+
+
+.why-us{
+    background-color: var(--Cyan);
+    opacity: 0.75;
+    padding: 1rem 2rem;
+}
+
+.why-us h3{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.why-us p{
+
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    line-height: 1,5;
+
+}
+
+@media (min-width:488px){
+
+    
+
+    main{
+        display: flex;
+        max-width:1000px;
+        margin: auto auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+.second-row{
+    display: flex;
+}
+
+.join-community{
+    max-width: 600px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.subscription{
+    max-width: 300px;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+
+.why-us{
+    max-width: 300px;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+button{
+
+    font: 1em;
+    font-weight: 700;
+    padding: 1em 6em;
+
+}
+
+
+}
+
+@media(max-width:288px)
+{
+    button{
+
+        font: 0.4em;
+        font-weight: 700;
+        padding: 0.3em 2em;
+
+    }
+}
+ 
