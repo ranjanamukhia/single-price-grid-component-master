@@ -105,7 +105,7 @@ main{
     padding: 1rem 2rem;
 }
 
-.subscription h3{
+.subscription h2{
     color: white; 
     font-size: 1rem;
     font-family: 'Karla', sans-serif;
@@ -162,7 +162,7 @@ button{
     padding: 1rem 2rem;
 }
 
-.why-us h3{
+.why-us h2{
     color: white;
     font-size: 1rem;
     font-family: 'Karla', sans-serif;
