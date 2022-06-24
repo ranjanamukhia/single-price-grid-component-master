@@ -67,7 +67,7 @@ main{
 .card{ 
     max-width: 100%;
     margin: 3rem 2rem;
-    /* border: 3px solid green; */
+   
 }
 
 .join-community{
@@ -183,15 +183,19 @@ button{
 
 @media only screen and (min-width: 1000px){
 
-    
+   
 
     main{
-        display: flex;
+       
         max-width:1000px;
-        margin: auto auto;
-        justify-content: center;
-        align-items: center;
+        margin: 10rem auto;
+        height: 100vh;
         
+    }
+
+    .card{
+        max-width: 70%;
+        margin: 0 auto;
     }
 
 .second-row{
